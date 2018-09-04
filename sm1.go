@@ -30,10 +30,10 @@ return shim.Error("Received unknown function invocation: " + function)
 
 
 func (s *SmartContract) step1desc (shim shim.ChaincodeStubInterface, args []string) sc.Response {
-if len(args) == 1 {
-return shim.Error( step1desc accepts 1 argument ")
+if len(args) == 2 {
+return shim.Error( step1desc accepts 2 argument ")
 	}
-var1 := args[0]
+var1 := args[0]var2 := args[1]
 
 func main() {
 
