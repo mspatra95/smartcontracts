@@ -1,1 +1,3 @@
-# smartcontracts
+# Smartcontracts
+
+Save all smartcontracts here.
