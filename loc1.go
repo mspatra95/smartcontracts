@@ -8,12 +8,12 @@ A letter of credit is a document from a bank that guarantees payment.
 */
 import ( 
  github.com/hyperledger/fabric/core/chaincode/shim
- sc github.com/hyperledger/fabric/protos/peer 
+ pb github.com/hyperledger/fabric/protos/peer 
  )
 
 // Define the Smart Contract structure
-	type SmartContract struct {
-	}
+type SmartContract struct {
+}
 
 
 
