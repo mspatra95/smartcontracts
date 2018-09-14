@@ -7,8 +7,8 @@ Use case for LoC between importer and exporter
 * 2 specific Hyperledger Fabric specific libraries for Smart Contracts
 */
 import ( 
- github.com/hyperledger/fabric/core/chaincode/shim
- sc github.com/hyperledger/fabric/protos/peer 
+ "github.com/hyperledger/fabric/core/chaincode/shim"
+ pb "github.com/hyperledger/fabric/protos/peer"
  )
 
 // Define the Smart Contract structure
